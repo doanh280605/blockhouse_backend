@@ -19,7 +19,7 @@ matplotlib.use('Agg')
 import tempfile
 
 class FetchStockDataView(View):
-    API_KEY = 'U7TM17NR5V6R24NO'
+    API_KEY = ''
     BASE_URL = 'https://www.alphavantage.co/query'
 
     def get(self, request):
